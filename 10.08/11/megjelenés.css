@@ -1,0 +1,48 @@
+body{
+    background-color: #b7b3a8;
+    margin: 0;
+    font-family: "Times New Roman", serif;
+}
+
+table{
+    width: 1400px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+    vertical-align: top;
+}
+
+h1{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.bal,
+.szele{
+    width: 300px;
+}
+
+.belseje{
+    width: 800px;
+    display: block;
+}
+
+.kiemelt{
+    background-color: #756e67;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.adatok{
+    background-color: #756e67;
+}
+
+.adatok td{
+    border: 1px solid #b7b3a8;
+    padding: 4px;
+    font-weight: bold;
+}
