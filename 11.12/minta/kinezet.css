@@ -1,0 +1,40 @@
+header{
+    grid-area: h;
+}
+#r1{
+    grid-area: re1;
+}
+#r2{
+    grid-area: re2;
+}
+#gal{
+    grid-area: g;
+}
+nav{
+    grid-area: n;
+}
+footer{
+    grid-area: f;
+}
+section{
+    grid-area: s;
+}
+article{
+    grid-area: a;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    'h h h h'
+    're1 re1 n n'
+    're1 re1 s a'
+    're2 re2 g g'
+    're2 re2 f f'
+    ;
+}
+*{
+    border: solid 1px black;
+}

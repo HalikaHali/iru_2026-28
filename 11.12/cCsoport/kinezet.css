@@ -1,0 +1,36 @@
+*{
+    border: 1px solid black;
+    text-align: center;
+    box-sizing: border-box;
+}
+header{
+    grid-area: h;
+    height: 100xp;
+}
+nav{
+    grid-area: n;
+    width: 200px;
+    border-width: 0px;
+}
+main{
+    grid-area: m;
+    width: 100%;
+}
+aside{
+    grid-area: a;
+    width: 200px;
+    border-width: 0px;
+}
+footer{
+    grid-area: f;
+    height: 80px;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    'h h h' 
+    'n m a' 
+    'f f f';
+}
